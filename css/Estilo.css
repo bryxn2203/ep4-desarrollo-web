@@ -1,0 +1,349 @@
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; 
+}
+.container-fluid{
+    margin-left: 5px;
+    margin-top: 55px;
+    border: 4px solid#224163;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+}
+
+.navbar-brand{
+    gap: 75px;
+}
+
+.navbar-nav{
+    gap: 30px;
+}
+
+.navbar-brand a {
+    font-family: 'Bebas Neue';
+    font-size: 2.3rem;
+    text-decoration: none;
+    color: #ff6a00; 
+}
+
+.navbar-brand a:hover {
+    text-decoration: overline;
+}
+
+.btn-lg {
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 5rem;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    color: rgb(250, 161, 28);
+    text-shadow: 5px 4px rgba(0, 0, 0, 0.181);
+    background-color: #fff; 
+    border: 2px solid #ffffff; 
+}
+
+.btn-lg:hover {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    box-shadow: 8px 8px black;
+    background-color: #3a4551;
+    color: #dfc296;
+}
+
+.carousel-caption h3{
+    margin: 80px;
+    font-family: 'Monoton';
+    font-size: 5rem;
+}
+
+.carousel-caption p{
+    margin: 80px;
+    font-family:'Poppins';
+    font-size: 1.4rem;
+}
+
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+}
+.btn-custom {
+    font-family: 'Special Elite';
+    font-size: 1rem;
+    background-color: #ff6a00e8;
+    border: 4px dashed rgb(241, 241, 241);
+    color: white;
+    padding: 13px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    font-family: 'Special Elite';
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition-duration: 0.7s;
+    background-color: rgba(255, 217, 0, 0.539);
+    border: 4px dashed rgb(255, 185, 7);
+    color: #ffffff;
+}
+
+
+
+.carousel-item {
+    height: 83vh; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    height: 80%;
+    width: 80%; 
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+.image-container {
+    position: relative;
+    height: 300px; 
+}
+
+.image-text {
+    position: sticky;
+    top: 90px;
+    left: 0;
+    right: 0;
+    text-align: end;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.container h2{
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    padding: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.image-container img{
+    border-radius: 80px;
+}
+
+
+.image-text{
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    border-radius: 100px;
+}
+
+.image-text h3{
+    margin-top: 18px;
+    font-family: 'Monoton';
+}
+
+.image-text p{
+    font-size: 1.2rem;
+    font-family: 'Special Elite';
+}
+
+
+.contenedor {
+    display: grid;
+    grid-template-rows: 1fr 1.3fr; 
+  }
+
+
+
+
+
+.col-md-4 p{
+    font-family: 'Special Elite';
+    font-size: 1.25rem;
+}
+
+
+.card-body .btn{
+    font-family: 'Poppins';
+    font-size: 1rem;
+    background-color: black;
+    border-radius: 60px;
+    color: #f8f9fa;
+    border: 3.5px solid salmon;
+}
+
+.card-body .btn:hover{
+    border: 3.9px dashed black;
+    background-color: salmon;
+    color: black;
+}
+
+
+.col-md-8 th{
+    color: #224163;
+    font-family: 'Monoton';
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.col-md-8 td{
+    color: #000000;
+    font-family: 'Special Elite';
+    font-size: 1.3rem;
+}
+
+.table{
+    border: 5px solid black;
+    box-shadow: 8px 8px 3px rgba(108, 108, 108, 0.698);
+}
+
+
+
+
+
+
+  .row h1{
+    font-family: 'Bebas Neue';
+    font-size: 4.5rem;
+    margin: 30px;
+  }
+
+  .video-container {
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container iframe {
+    width: 80%;
+    height: 83vh;
+    border: none;
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+section.bg-success {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+
+.containermy-5{
+    background-image: image-set(url(../imagen/RUNNER.png));
+    padding: 90px;
+}
+
+.containermy-5 h2{
+    font-family: 'Poppins';
+}
+
+.mb-3 label{
+    color: #e2935b;
+    font-weight: bold;
+    font-family: 'Special Elite';
+    font-size: 1.5rem;
+}
+
+.mb-3 input{
+    font-family: 'Poppins';
+}
+
+
+.btn00{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 0px;
+    padding: 1rem 1rem;
+    box-shadow: 9px 9px  rgba(195, 195, 195, 0.526);
+}
+
+
+
+.video-container {
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container iframe {
+    width: 80%;
+    height: 83vh;
+    border: none;
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+section.bg-success {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+
+
+
+footer {
+    background-color: #628a6089;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer .semi-transparent {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.col1{
+    font-family: 'Arvo';
+    font-size: 1rem;
+    font-style: oblique;
+    color: #000000;
+}
+
+.col2{
+    font-family: 'Arvo';
+    font-size: 1rem;
+    color:#224163;
+}
+
+.semi-transparent{
+    font-family: 'Arvo';
+    font-size: 0.8rem;
+    color:#989898;
+}
